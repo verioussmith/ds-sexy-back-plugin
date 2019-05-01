@@ -1,10 +1,10 @@
 <?php
 
 /** 
- * Delcare DS Plugin Example Class
+ * Delcare DS Sexy Back Plugin Class
  */
-if ( ! class_exists( 'DS_Example_Plugin', FALSE ) ) {
-	class DS_Example_Plugin
+if ( ! class_exists( 'DS_Sexy_Back_Plugin', FALSE ) ) {
+	class DS_Sexy_Back_Plugin
 	{
 		private $_log_file = NULL;
 		private $_log = FALSE;
@@ -23,7 +23,7 @@ if ( ! class_exists( 'DS_Example_Plugin', FALSE ) ) {
 					$msg = "(" . gettype($msg) . ") " . $msg;
 				}
 				if ( NULL === $this->_log_file ) {
-					$this->_log_file = dirname( dirname( __FILE__ ) ) . '/~ds-example-plugin-log.txt';
+					$this->_log_file = dirname( dirname( __FILE__ ) ) . '/~ds-sexy-back-plugin-log.txt';
 					$this->_log = @fopen( $this->_log_file, 'a+' );
 				}
 
@@ -64,8 +64,8 @@ if ( ! class_exists( 'DS_Example_Plugin', FALSE ) ) {
 			$this->debug( $info );
 		}
 	}
-	global $ds_example_plugin;
-	$ds_example_plugin = new DS_Example_Plugin();
+	global $ds_sexy_back_plugin;
+	$ds_sexy_back_plugin = new DS_Sexy_Back_Plugin();
 }
 		
 

@@ -1,13 +1,13 @@
 {
-    "name": "serverpress/ds-example-plugin",
-    "description": "An example plugin that illustrates DesktopServer API functionality.",
+    "name": "verioussmith/ds-sexy-back-plugin",
+    "description": "A Plugin to bring sexy back to the DesktopServer localhost UI.",
     "type": "wordpress-plugin",
     "license": "GPL",
     "authors":[
         {
-            "name": "Stephen J. Carnam",
-            "email": "steve@serverpress.com",
-            "homepage": "https://github.com/serverpress/ds-example-plugin"
+            "name": "Verious B. Smith III",
+            "email": "verious.smith@philoveracity.com",
+            "homepage": "https://github.com/verioussmith/ds-sexy-back-plugin"
         }
     ],
     "require": {
